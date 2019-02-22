@@ -4,6 +4,6 @@ node{
     git 'https://github.com/perugupalli/repo1'
     }
     stage('Compile Packeage'){
-    sh  'mvn package'
+    sh  'mvn package123'
     }
 }
