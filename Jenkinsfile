@@ -1,5 +1,5 @@
 node{
-    stage('SCM Checkout'){
+    stage('SCM Checkout1'){
     def mvnHome = tool name: 'Maven', type: 'maven'
     git 'https://github.com/perugupalli/repo1'
     }
